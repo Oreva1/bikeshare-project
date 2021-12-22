@@ -20,9 +20,12 @@ I used the following software to complete this project:
 •	A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
 
+**Files Used**
 
-### Files used
-Include the files used
+These three city dataset files were used for this project:
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+•	chicago.csv
+
+•	new_york_city.csv
+
+•	washington.csv
