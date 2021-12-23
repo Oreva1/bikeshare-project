@@ -165,7 +165,7 @@ def user_stats(df):
     print(user_types)
 
     # TO DO: Display counts of gender
-
+    if 'Gender' in df.columns:
         gender = df['Gender'].value_counts()
         print('\nGender:\n', gender)
 
@@ -177,7 +177,7 @@ def user_stats(df):
         common_birth_year = df['Birth Year'].mode()[0]
         print('The most common birth year is', common_birth_year)
     else:
-        
+
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
