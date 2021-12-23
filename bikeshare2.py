@@ -177,7 +177,7 @@ def user_stats(df):
         common_birth_year = df['Birth Year'].mode()[0]
         print('The most common birth year is', common_birth_year)
     else:
-
+       print('\nNo gender and birth year data for this city.')   
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
